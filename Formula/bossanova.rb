@@ -58,7 +58,7 @@ class Bossanova < Formula
 
       resource "plugins-sum" do
         url "https://github.com/bossanova-dev/bossanova/releases/download/v1.167.0/plugins.sum-darwin-arm64"
-        sha256 "45d37530669e3b63868084d07b4a70225ef17050794277f36a84332510d58d5f"
+        sha256 "5ce25eefa416a5abc9d947c48c4815ffbe0ad8bdaffb267a944547d24045a4d9"
       end
     end
 
