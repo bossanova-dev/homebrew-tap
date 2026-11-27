@@ -1,7 +1,7 @@
 class Bossanova < Formula
   desc "AI-powered pair programming workflow manager"
   homepage "https://github.com/bossanova-dev/bossanova"
-  version "1.204.0"
+  version "1.205.0"
   license "MIT"
 
   depends_on "tmux" => :recommended
@@ -9,184 +9,184 @@ class Bossanova < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/boss-darwin-arm64"
-      sha256 "e087e89afe05be55b9ee9d3bd654489548fbec81167f4b9ea9e31cd45772c1c3"
+      url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/boss-darwin-arm64"
+      sha256 "e4aa0ae8eff499f27d252352c6752a8111f53a657672a176b4c094094889b605"
 
       resource "bossd" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-darwin-arm64"
-        sha256 "4dd48f0158aaff74c3105cac28d9a8733c326d0082d63238efd2fb2f2ed42421"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-darwin-arm64"
+        sha256 "ee3ad7cfa9014178356cf769f6e37680fc3193c19188d4e46338928b642e1784"
       end
 
       resource "boss-mcp" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/boss-mcp-darwin-arm64"
-        sha256 "d49841e350eccca64a571737b8f47048378f8eb4fe87abcd819b663040f6b288"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/boss-mcp-darwin-arm64"
+        sha256 "efaee4ca51dc2428013c77c7e25b27cf866c1a1583dec21a7cee3c8f8241ef52"
       end
 
       resource "bossd-plugin-dependabot" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-dependabot-darwin-arm64"
-        sha256 "a0adba89efb2d7831d5472b6c31b3e32c8e963ebb24e406212279b9aa9b78e75"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-dependabot-darwin-arm64"
+        sha256 "4c78f01b52def03415747a14b492b47d0fd6141d8e4daa1272498d08a2830566"
       end
 
       resource "bossd-plugin-repair" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-repair-darwin-arm64"
-        sha256 "97315472ae21d9099896e690aa1be3c8148a336d5e1243f9d1b6e0ac7c4ea2a4"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-repair-darwin-arm64"
+        sha256 "dbed801db9475c14e4ef196623e3c75fca60ac21a072d1f60215bb64c8faa40a"
       end
 
       resource "bossd-plugin-claude" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-claude-darwin-arm64"
-        sha256 "b545a0e9031daea953f1871efe91abc3b2b91a56ba83a36abe2b4284ac7cb16b"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-claude-darwin-arm64"
+        sha256 "e426a6006d0f158c69e7ce669cd40a8d98631d08102b36436f05595e7b04d06f"
       end
 
       resource "bossd-plugin-codex" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-codex-darwin-arm64"
-        sha256 "a9b24c003fbe5aca446ef70032d27d559b01676bd580a68d7758b47ddb4409cc"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-codex-darwin-arm64"
+        sha256 "73beb60045dad7ef80401148eb5cd7be54b9f89ac06b5c8d8472cb3975245841"
       end
 
       resource "bossd-plugin-linear" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-linear-darwin-arm64"
-        sha256 "f75d5b9b868d82d68d53e551f683b343b0656745f4877123ed857813b09fc458"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-linear-darwin-arm64"
+        sha256 "0f00d03734feef957e2f7e05ef39b04b11338b9fbf3657ea564769ffe1736c27"
       end
 
       resource "bossd-plugin-opencode" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-opencode-darwin-arm64"
-        sha256 "a79b04c726ad3f4cce818f7913cfb82c9e85b5caf12d770440b9acf94f5f33c5"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-opencode-darwin-arm64"
+        sha256 "ba8cf084a95bd848e9346ca89f7da7595a91823d9de2762249c14f1d560eb1ea"
       end
 
       resource "bossd-plugin-antigravity" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-antigravity-darwin-arm64"
-        sha256 "8e62fbaf2071ad30c804300a69e74d0400225c9ba375c96156c68d52d4c82d3b"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-antigravity-darwin-arm64"
+        sha256 "c818918c73ead1f0c8d08b4867d96f057a72ef42b50d452882d0aa00daefe54f"
       end
 
       resource "bossd-plugin-sentry" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-sentry-darwin-arm64"
-        sha256 "b888897efa1b9fc8b1820c34eedf421669f3fdd1883c669711bddafc1a9fdf01"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-sentry-darwin-arm64"
+        sha256 "1fa0743890a36f8a28369f7b98734d0a1656f051fe671bd1820921480a31b891"
       end
 
       resource "plugins-sum" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/plugins.sum-darwin-arm64"
-        sha256 "c3a15e21251c4a351c75c90e1f778024d8c0383eea210956f6e3f524ead336fa"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/plugins.sum-darwin-arm64"
+        sha256 "559fe0878d04299cf6a14d41f4f9d32ba22e3053b775f4d370b44a40712d0808"
       end
     end
 
     on_intel do
-      url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/boss-darwin-amd64"
-      sha256 "b40790524bbcbc4d30dc6b7e7075711a5d5242eb2ec87e91f4f5d59035d4dede"
+      url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/boss-darwin-amd64"
+      sha256 "d3df1a8f43d08071ec668a2a081f6440774c7421609a21120bb348fdd1c4df5d"
 
       resource "bossd" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-darwin-amd64"
-        sha256 "d464c2106a773434feba64f2b7828fc46f449c575c1436716b1b284f3ddbd93c"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-darwin-amd64"
+        sha256 "d2449fbae4bd91ab38a0b3c8da7d15dc617a964d9c7e67375ecd0bfc3a346c5d"
       end
 
       resource "boss-mcp" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/boss-mcp-darwin-amd64"
-        sha256 "dc00620377b0ebac59ba2db75d0af9e63263138f04b02bcdda74c2cee3cf1583"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/boss-mcp-darwin-amd64"
+        sha256 "3061c139c083f6e7a1e45769632db35858b3e26e546b7a0bdb5765cc75058622"
       end
 
       resource "bossd-plugin-dependabot" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-dependabot-darwin-amd64"
-        sha256 "af6f9ce4d811478a7039e7a1c66cf881a4e2fca0e89140dab34b20f42bb0814f"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-dependabot-darwin-amd64"
+        sha256 "a84ebb7bd4beb649391d86e841bfe507db5a200fed5baa1ff631eec6d43ef226"
       end
 
       resource "bossd-plugin-repair" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-repair-darwin-amd64"
-        sha256 "50cbcc84cf4947952d0c95fc8c89cf805d8dbd5071ae9320c9b986050876ef6d"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-repair-darwin-amd64"
+        sha256 "e141d314beaa5f9ceba9bc7792bcf0e4bc92af922d6b1a8ff97917b10b5f2847"
       end
 
       resource "bossd-plugin-claude" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-claude-darwin-amd64"
-        sha256 "4a61f883dcbee8c24df612af1ec43c08ca4a0ba4f8f8fd7b6b43dfe1165e6979"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-claude-darwin-amd64"
+        sha256 "d1e5ceead968c901a5e36a539910eb88e79a67183f2e1b066baa93b65e153b6d"
       end
 
       resource "bossd-plugin-codex" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-codex-darwin-amd64"
-        sha256 "4bf05f4c9f250fbfbfb7a7ce78a64328510848672194f51e44a16bd42203ac7c"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-codex-darwin-amd64"
+        sha256 "c5eacd8abdd481c57493fd6378b8ea2a72c9e4f6b46231ee7774bd6bd71dfd01"
       end
 
       resource "bossd-plugin-linear" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-linear-darwin-amd64"
-        sha256 "7bbc539cf4b6f311dcb6ca4481ba2e33df66ac65b2a17034c56bf137a47d8e40"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-linear-darwin-amd64"
+        sha256 "d4bcfb2d8c2a34551d80684e75efcf38c343ed30c4376c8e3c21a93682f9b836"
       end
 
       resource "bossd-plugin-opencode" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-opencode-darwin-amd64"
-        sha256 "9d0509c464ef015656fd44460f16d68116c696cee0a0a74254bdf00602804b2c"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-opencode-darwin-amd64"
+        sha256 "43ff51f1936087d6750908d94dd2909a95ef8141bcafb2cef84fb6bed9f2f8bb"
       end
 
       resource "bossd-plugin-antigravity" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-antigravity-darwin-amd64"
-        sha256 "2dae3a8afc99dbee93caf2318fec19af79debf19bd405621995d732c4da50cdd"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-antigravity-darwin-amd64"
+        sha256 "3d6b7c90969860e914ea3069ab06d76415dc3296559d7d3dfae2ae8df3b69fa9"
       end
 
       resource "bossd-plugin-sentry" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-sentry-darwin-amd64"
-        sha256 "f9ab5fc6b9569cbc599d8630fd96089a66b1e12a58bf3e6f6458552b6b103a2e"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-sentry-darwin-amd64"
+        sha256 "d411830693ffb44e20bec6f73679428adc8310e40debeb8e9d02bf5726164c97"
       end
 
       resource "plugins-sum" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/plugins.sum-darwin-amd64"
-        sha256 "d40355c9a96b64edafc17058cf00b63dec76c2d8153e8054381202348c7ea62c"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/plugins.sum-darwin-amd64"
+        sha256 "f97b0fdf5a103661e2026b52a22fe5096443607834941f33abb9b3cc3f7dc3e5"
       end
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/boss-linux-amd64"
-      sha256 "5f0ca8af4e3cda65c9334cb592173df732bc96c0c8fcca5f845490a1ea2e8b1f"
+      url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/boss-linux-amd64"
+      sha256 "fcc6cc737cbc65e777cc6c6ef438679798cba59cde03803a348796827992628e"
 
       resource "bossd" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-linux-amd64"
-        sha256 "05d060f3e98242de386465691878b0c2302adcc7d4d052f65c6e681c99422c9c"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-linux-amd64"
+        sha256 "b3216b9bf104cf12ff45ff91138d0c3a7eaa3f8276687f74feafb42b5498ed1b"
       end
 
       resource "boss-mcp" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/boss-mcp-linux-amd64"
-        sha256 "af8d4a41f92825cca2c496cc2f4bd0e3dfea90692dacb1c12b42dcf1a8335cff"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/boss-mcp-linux-amd64"
+        sha256 "476c3317309c3a82d8baaea8546864d9181357e2e4c62998b8b7a23a011dd4c4"
       end
 
       resource "bossd-plugin-dependabot" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-dependabot-linux-amd64"
-        sha256 "7c2bb5090a6f93995a717c8c3ab8c20de0db987c1634d4cc63651ac8e606f800"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-dependabot-linux-amd64"
+        sha256 "8e04f95ae652f79c2b49c61f3347259cf6ea9b23d84144d8ab76e9a8da0836c6"
       end
 
       resource "bossd-plugin-repair" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-repair-linux-amd64"
-        sha256 "605782445575ac1bbec1d690b86ba472b22873dc0053464a552c200f67e18267"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-repair-linux-amd64"
+        sha256 "8c9276a2478b9b19fe95ae1b438c0879690fb1c4f3f2a16db3fbee9d22b6516f"
       end
 
       resource "bossd-plugin-claude" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-claude-linux-amd64"
-        sha256 "5ef5c58ce4c57c7ff3c42be422f1a8ad1a167aacd37d1a72b14322172a7d0861"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-claude-linux-amd64"
+        sha256 "1f2e289c1d762724a57ea11e9f09f4b1e63bba825cd8908cb50026e6d58c8ffe"
       end
 
       resource "bossd-plugin-codex" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-codex-linux-amd64"
-        sha256 "de8fc97a48354aeb18636729ed3151c72e9a02f611ed55bf81f425dae4190e78"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-codex-linux-amd64"
+        sha256 "0dd6704cd48340bc44ce16bd3078b9fe7b74877f9dcfff57fb7a77a4edaf9bf6"
       end
 
       resource "bossd-plugin-linear" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-linear-linux-amd64"
-        sha256 "58ef06d6675d59be42e9e005262b39b15c88ffd137ed3ea2932d2ce1aafa94ba"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-linear-linux-amd64"
+        sha256 "450fa059541bf5c1774cd9cca27cbf8927b1be84aa891c6504473fd75ba2a667"
       end
 
       resource "bossd-plugin-opencode" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-opencode-linux-amd64"
-        sha256 "b608f6255e42f4f9cf1015e97798116d31ce6ae88e528655ee5d91bfbd5db5b5"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-opencode-linux-amd64"
+        sha256 "c78521a625f4efd41823561e40c53f9545c05860575e74e934a9e6a14f709720"
       end
 
       resource "bossd-plugin-antigravity" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-antigravity-linux-amd64"
-        sha256 "4a2db6ec30a0a0b1497fc65134a0033326e5059dfeab76422ab3ac845b90c5c7"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-antigravity-linux-amd64"
+        sha256 "d77f2211ecdc664f6cd754ae6c70c3a05d1df87bbd4bfba73a850ba7f37c6636"
       end
 
       resource "bossd-plugin-sentry" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/bossd-plugin-sentry-linux-amd64"
-        sha256 "4e0630906558d3e712a841da7a5934df8452e2b6687670356c93bc433ffd437b"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/bossd-plugin-sentry-linux-amd64"
+        sha256 "1549d233733f21a7bdd81b3a3179d8cafebb3bb059f05c62da7fba1db8d5c525"
       end
 
       resource "plugins-sum" do
-        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.204.0/plugins.sum-linux-amd64"
-        sha256 "f7e3ab94d0f76a222717d241d628ef310e5504af503efd39c0b91eca951ae032"
+        url "https://github.com/bossanova-dev/bossanova/releases/download/v1.205.0/plugins.sum-linux-amd64"
+        sha256 "90ce49f4730b6ee65536320d819912315519e8dabb75d10a9ea55fa4844d3b15"
       end
     end
   end
@@ -216,6 +216,11 @@ class Bossanova < Formula
 
   def caveats
     <<~EOS
+      On macOS, the first `boss` launch registers the bossd LaunchAgent so the
+      daemon starts at login. Set `BOSS_NO_AUTO_DAEMON_INSTALL=1` to skip this,
+      or run `boss daemon install` to register it by hand. On Linux, run
+      `boss daemon install` to register the systemd user service.
+
       The boss MCP tools (mcp__boss__*) work automatically in boss sessions —
       no setup required.
 
